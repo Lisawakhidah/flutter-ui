@@ -65,7 +65,6 @@ class _MyScaffoldState extends State<MyScaffold> {
               icon: Icon(Icons.person),
               label: 'profile',
             ),
-
           ]),
       );
       
