@@ -26,14 +26,21 @@ class _MyContainerState extends State<MyContainer> {
             color: Colors.blue,
             width: 5,
           ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.lightBlue.withOpacity(0.2),
+              blurRadius: 15.0,
+              offset: Offset.zero,
+            )
+          ]
         ),
-       child: ClipRRect(
-        borderRadius: BorderRadius.circular(15),
-         child: Image(
-           image: AssetImage('assets/ropan.jpg'),
-           fit: BoxFit.fill,
-         ),
-       ),
+      //  child: ClipRRect(
+      //   borderRadius: BorderRadius.circular(15),
+      //    child: Image(
+      //      image: AssetImage('assets/ropan.jpg'),
+      //      fit: BoxFit.fill,
+      //    ),
+      //  ),
       ),
     );
   }
