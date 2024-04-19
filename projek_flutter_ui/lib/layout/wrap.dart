@@ -39,7 +39,7 @@ class MyWrap extends StatelessWidget {
                     width: 45,
                     height: 45,
                     decoration: BoxDecoration(
-                      border: Border.all(width: 3, color: Colors.grey),
+                      border: Border.all(width: 3, color: Colors.black),
                       color: color,
                       shape: BoxShape.circle,
                       boxShadow: [
