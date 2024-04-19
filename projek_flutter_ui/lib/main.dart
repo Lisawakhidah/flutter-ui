@@ -25,6 +25,7 @@ import 'package:projek_flutter_ui/layout/wrap.dart';
 import 'package:projek_flutter_ui/navigator/bottom_nav.dart';
 import 'package:projek_flutter_ui/navigator/drawer.dart';
 import 'package:projek_flutter_ui/navigator/push.dart';
+import 'package:projek_flutter_ui/navigator/sliverappbar.dart';
 import 'package:projek_flutter_ui/navigator/tabbar.dart';
 
 void main() {
@@ -59,7 +60,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyDrawer(),
+      home: const MySliverAppBar(),
     );
   }
 }
