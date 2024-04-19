@@ -17,6 +17,7 @@ import 'package:projek_flutter_ui/layout/padding.dart';
 import 'package:projek_flutter_ui/layout/row.dart';
 import 'package:projek_flutter_ui/layout/sizedbox.dart';
 import 'package:projek_flutter_ui/layout/stack.dart';
+import 'package:projek_flutter_ui/layout/wrap.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,7 +51,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MySizedBox(),
+      home:  MyWrap(),
     );
   }
 }
