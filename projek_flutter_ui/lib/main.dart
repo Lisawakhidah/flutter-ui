@@ -11,6 +11,7 @@ import 'package:projek_flutter_ui/layout/gridviewbuilder.dart';
 import 'package:projek_flutter_ui/layout/listview.dart';
 import 'package:projek_flutter_ui/layout/listviewbuilder.dart';
 import 'package:projek_flutter_ui/layout/row.dart';
+import 'package:projek_flutter_ui/layout/stack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyGridViewBuilder(),
+      home: const MyStack(),
     );
   }
 }
