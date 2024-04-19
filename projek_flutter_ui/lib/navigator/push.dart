@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projek_flutter_ui/navigator/pop.dart';
 
 class MyPush extends StatefulWidget {
   const MyPush({super.key});
@@ -23,7 +24,7 @@ class _MyPushState extends State<MyPush> {
             ElevatedButton(
               onPressed: () {
                 Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => const PageTwo()));
+                    MaterialPageRoute(builder: (context) => const MyPop()));
               },
               child: const Text('Next Page'),
             ),
