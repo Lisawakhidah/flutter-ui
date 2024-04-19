@@ -24,6 +24,7 @@ import 'package:projek_flutter_ui/layout/stack.dart';
 import 'package:projek_flutter_ui/layout/wrap.dart';
 import 'package:projek_flutter_ui/navigator/bottom_nav.dart';
 import 'package:projek_flutter_ui/navigator/push.dart';
+import 'package:projek_flutter_ui/navigator/tabbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -57,7 +58,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyBottomNav(),
+      home: const MyTabBar(),
     );
   }
 }
