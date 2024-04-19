@@ -6,9 +6,10 @@ import 'package:projek_flutter_ui/basic/icon.dart';
 import 'package:projek_flutter_ui/basic/image.dart';
 import 'package:projek_flutter_ui/basic/scaffold.dart';
 import 'package:projek_flutter_ui/basic/text.dart';
-import 'package:projek_flutter_ui/layout/aspecratio.dart';
+import 'package:projek_flutter_ui/layout/aspectratio.dart';
 import 'package:projek_flutter_ui/layout/center.dart';
 import 'package:projek_flutter_ui/layout/column.dart';
+import 'package:projek_flutter_ui/layout/expanded.dart';
 import 'package:projek_flutter_ui/layout/gridviewbuilder.dart';
 import 'package:projek_flutter_ui/layout/listview.dart';
 import 'package:projek_flutter_ui/layout/listviewbuilder.dart';
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyCenter(),
+      home: const MyExpanded(),
     );
   }
 }
