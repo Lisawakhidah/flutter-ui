@@ -7,6 +7,7 @@ import 'package:projek_flutter_ui/basic/image.dart';
 import 'package:projek_flutter_ui/basic/scaffold.dart';
 import 'package:projek_flutter_ui/basic/text.dart';
 import 'package:projek_flutter_ui/form/dropdownbutton.dart';
+import 'package:projek_flutter_ui/form/snackbar.dart';
 import 'package:projek_flutter_ui/form/switch.dart';
 import 'package:projek_flutter_ui/form/textfield.dart';
 import 'package:projek_flutter_ui/layout/aspectratio.dart';
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MySwitch(),
+      home: const MySnackBar(),
     );
   }
 }
