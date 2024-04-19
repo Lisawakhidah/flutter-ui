@@ -22,6 +22,7 @@ import 'package:projek_flutter_ui/layout/row.dart';
 import 'package:projek_flutter_ui/layout/sizedbox.dart';
 import 'package:projek_flutter_ui/layout/stack.dart';
 import 'package:projek_flutter_ui/layout/wrap.dart';
+import 'package:projek_flutter_ui/navigator/bottom_nav.dart';
 import 'package:projek_flutter_ui/navigator/push.dart';
 
 void main() {
@@ -56,7 +57,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyPush(),
+      home: const MyBottomNav(),
     );
   }
 }
