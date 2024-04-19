@@ -22,7 +22,7 @@ class MyDrawer extends StatelessWidget {
                 color: Colors.red[100],
                 child: UserAccountsDrawerHeader(
                   decoration: BoxDecoration(
-                    color: Colors.amber[200],
+                    color: Colors.redAccent[200],
                   ),
                   accountName: const Text(
                     'Khanif Zyen',
