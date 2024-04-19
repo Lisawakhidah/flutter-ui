@@ -7,6 +7,7 @@ import 'package:projek_flutter_ui/basic/image.dart';
 import 'package:projek_flutter_ui/basic/scaffold.dart';
 import 'package:projek_flutter_ui/basic/text.dart';
 import 'package:projek_flutter_ui/layout/column.dart';
+import 'package:projek_flutter_ui/layout/row.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyColumn(),
+      home: const MyRow(),
     );
   }
 }
