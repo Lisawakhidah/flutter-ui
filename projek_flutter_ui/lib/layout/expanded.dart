@@ -38,6 +38,10 @@ class _MyExpandedState extends State<MyExpanded> {
                 Icon(
                       Icons.check,
                       color: Colors.blue,
+                ),
+                Icon(
+                  Icons.notification_add_rounded,
+                  color: Colors.amber,
                 )
               ],
             )

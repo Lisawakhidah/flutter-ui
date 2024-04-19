@@ -15,6 +15,7 @@ import 'package:projek_flutter_ui/layout/listview.dart';
 import 'package:projek_flutter_ui/layout/listviewbuilder.dart';
 import 'package:projek_flutter_ui/layout/padding.dart';
 import 'package:projek_flutter_ui/layout/row.dart';
+import 'package:projek_flutter_ui/layout/sizedbox.dart';
 import 'package:projek_flutter_ui/layout/stack.dart';
 
 void main() {
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyExpanded(),
+      home: const MySizedBox(),
     );
   }
 }
