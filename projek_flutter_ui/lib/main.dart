@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projek_flutter_ui/basic/button.dart';
+import 'package:projek_flutter_ui/basic/circleavatar.dart';
 import 'package:projek_flutter_ui/basic/container.dart';
 import 'package:projek_flutter_ui/basic/icon.dart';
 import 'package:projek_flutter_ui/basic/image.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyImage(),
+      home: const MyCircleAvatar(),
     );
   }
 }
