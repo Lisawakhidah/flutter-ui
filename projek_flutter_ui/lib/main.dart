@@ -6,6 +6,7 @@ import 'package:projek_flutter_ui/basic/icon.dart';
 import 'package:projek_flutter_ui/basic/image.dart';
 import 'package:projek_flutter_ui/basic/scaffold.dart';
 import 'package:projek_flutter_ui/basic/text.dart';
+import 'package:projek_flutter_ui/figma/features/home/pages/home_page.dart';
 import 'package:projek_flutter_ui/form/dropdownbutton.dart';
 import 'package:projek_flutter_ui/form/snackbar.dart';
 import 'package:projek_flutter_ui/form/switch.dart';
@@ -60,7 +61,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyButton(),
+      home: const HomePage(),
     );
   }
 }
