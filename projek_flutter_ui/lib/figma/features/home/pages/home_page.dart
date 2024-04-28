@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:projek_flutter_ui/figma/features/home/widgets/bottom_navigation_bar_home.dart';
 import 'package:projek_flutter_ui/figma/features/home/widgets/category_home.dart';
 import 'package:projek_flutter_ui/figma/features/home/widgets/recommended_furniture_home.dart';
 
@@ -73,10 +74,11 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 15),
             Expanded(
               child: RecommendedFurnitureHome(),
-            )
+            ),
           ],
         ),
       ),
+      bottomNavigationBar: BottomNavBarHome(),
     );
   }
 }

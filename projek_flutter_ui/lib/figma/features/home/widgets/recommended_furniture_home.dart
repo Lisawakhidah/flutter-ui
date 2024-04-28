@@ -124,7 +124,7 @@ class RecommendedFurnitureHome extends StatelessWidget {
                           width: 8
                         ),
                         Text(
-                          '${_furnitures[index]['start']}',
+                          '${_furnitures[index]['star']}',
                           style: GoogleFonts.poppins(
                             textStyle: const TextStyle(
                               fontWeight: FontWeight.w400,
