@@ -56,7 +56,7 @@ class _SelectQuantityDetailState extends State<SelectQuantityDetail> {
                       bottomLeft: Radius.circular(18),
                       topLeft: Radius.circular(18)),
                 ),
-                child: SvgPicture.asset("assets/icons/substract.svg"),
+                child: SvgPicture.asset("assets/icons/min.svg"),
               ),
             ),
             Container(
@@ -87,7 +87,7 @@ class _SelectQuantityDetailState extends State<SelectQuantityDetail> {
                       topRight: Radius.circular(18),
                       bottomRight: Radius.circular(18)),
                 ),
-                child: SvgPicture.asset("assets/icons/add.svg"),
+                child: SvgPicture.asset("assets/icons/plus.svg"),
               ),
             ),
           ],
