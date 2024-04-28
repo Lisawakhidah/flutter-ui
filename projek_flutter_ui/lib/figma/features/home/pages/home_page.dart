@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:projek_flutter_ui/figma/features/home/widgets/category_home.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -38,7 +39,7 @@ class HomePage extends StatelessWidget {
           children: [
             const SizedBox(height: 20),
             SizedBox(
-              width: 226,
+              width: 225,
               child: Text(
                 'Discover the most modern furniture',
                 style: GoogleFonts.poppins(
@@ -49,6 +50,11 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+            const SizedBox(height: 25),
+            SizedBox(
+              height: 30,
+              child: CategoryHome(),
+            )
           ],
         ),
       ),
