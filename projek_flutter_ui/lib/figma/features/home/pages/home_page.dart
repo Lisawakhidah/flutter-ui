@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:projek_flutter_ui/figma/features/home/widgets/category_home.dart';
+import 'package:projek_flutter_ui/figma/features/home/widgets/recommended_furniture_home.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -33,11 +35,13 @@ class HomePage extends StatelessWidget {
             icon: SvgPicture.asset('assets/icons/search.svg'))
         ],
       ),
+      backgroundColor: const Color(0xFFF2F2F2),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 14.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 20),
+            SizedBox(height: 20),
             SizedBox(
               width: 225,
               child: Text(
@@ -54,6 +58,21 @@ class HomePage extends StatelessWidget {
             SizedBox(
               height: 30,
               child: CategoryHome(),
+            ),
+            const SizedBox(height:25),
+            Text(
+              "Recommended Furnitures",
+              style: GoogleFonts.poppins(
+                textStyle: const TextStyle(
+                  fontWeight: FontWeight.w400,
+                  fontSize: 16,
+                  color: Color(0xFF4A4543),
+                )
+              ),
+            ),
+            const SizedBox(height: 15),
+            Expanded(
+              child: RecommendedFurnitureHome(),
             )
           ],
         ),
