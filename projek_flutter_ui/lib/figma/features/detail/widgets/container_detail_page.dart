@@ -5,6 +5,8 @@ import 'package:project_pertama/features/detail/widgets/add_to_cart_detail.dart'
 import 'package:project_pertama/features/detail/widgets/nama_produk_harga_detail.dart';
 import 'package:project_pertama/features/detail/widgets/select_color_detail.dart';
 import 'package:project_pertama/features/detail/widgets/select_quantity_detail.dart';
+import 'package:projek_flutter_ui/figma/features/detail/widgets/nama_produk_harga_detail.dart';
+import 'package:projek_flutter_ui/figma/features/detail/widgets/select_color_detail.dart';
 
 class ContainerDetail extends StatefulWidget {
   const ContainerDetail({super.key});
