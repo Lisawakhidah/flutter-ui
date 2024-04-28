@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projek_flutter_ui/figma/features/detail/widgets/appbar_detail.dart';
+import 'package:projek_flutter_ui/figma/features/detail/widgets/container_detail_page.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage({super.key});
